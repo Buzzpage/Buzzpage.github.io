@@ -9,10 +9,6 @@ body {
     user-select: none;
     scroll-behavior: smooth;
     font-family: Roboto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     background-image: url(./assets/asset5.webp);
     background-attachment: fixed;
     background-size: cover;
@@ -119,7 +115,10 @@ h4 {
 }
 
 .info {
-    margin-top: 3.8vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    margin-left: auto;
+    margin-right: auto;
     width: 80%;
     min-height: 90%;
     display: flex;
@@ -141,7 +140,7 @@ h4 {
     display: flex;
     justify-content: space-between;
     align-items:flex-start;
-    color: #bebebe;
+    color: #acacac;
 }
 
 .nav p {
@@ -230,7 +229,7 @@ h4 {
     justify-content: space-between;
     align-items: flex-end;
     width: 90%;
-    color: #bebebe;
+    color: #acacac;
 }
 
 .phr {
