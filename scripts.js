@@ -43,3 +43,10 @@ i4.addEventListener('mouseover', () => {
 i5.addEventListener('mouseover', () => {
     text.textContent = 'Utilización de códigos QR para lo que quieras. Desde tu página web, tus redes sociales o tu carta de pedidos';
 });
+
+
+// link replacement
+
+if (window.innerWidth <= 480) {
+    document.getElementById('ig').setAttribute('href', 'instagram://user?username=buzzpage.co');
+}

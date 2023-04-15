@@ -40,7 +40,6 @@ a {
 }
 
 h4 {
-    /* position: absolute; */
     color: #000;
     text-align: center;
     font-size: 1.7vh;
@@ -119,6 +118,8 @@ h4 {
     margin-bottom: 3vh;
     margin-left: auto;
     margin-right: auto;
+    margin-right: auto;
+    margin-left: auto;
     width: 80%;
     min-height: 90%;
     display: flex;
