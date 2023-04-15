@@ -1,0 +1,276 @@
+@font-face {
+    font-family: "Roboto";
+    src: url('./fonts/Roboto-Regular.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    scroll-behavior: smooth;
+    font-family: Roboto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(./assets/asset5.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+img {
+    -webkit-user-drag: none;
+    user-drag: none;
+}
+
+p {
+    font-size:large;
+}
+
+a {
+    text-decoration: none;
+}
+
+.select {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 90%;
+    width: 90%;
+    overflow-x: hidden;
+}
+
+h4 {
+    /* position: absolute; */
+    color: #000;
+    text-align: center;
+    font-size: 1.7vh;
+}
+
+.li {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 0;
+    flex-grow: 1;
+    background-color: #fff;
+    opacity: 1;
+    transition: flex-grow .3s ease-in, opacity .3s ease-in;
+}
+
+.li:hover {
+    flex-grow: 2;
+}
+
+.li:hover ~ .li h4 {
+    opacity: 0;
+    transition: opacity .3s ease-in;
+    overflow-y: hidden;
+}
+
+/* .li:hover ~ #text {
+    opacity: 0;
+} */
+
+.li:not(:hover) {
+    flex-grow: .5;
+}
+
+.li img {
+    display: none;
+}
+
+.p {
+    margin-top: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1vh;
+    padding: 2vh;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    width: 90%;
+    max-width: 88%;
+    height: 10vh;
+    font-size: 2.3vh;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(.7vh);
+}
+
+.i1 {
+    border-radius: 1vh 0 0 1vh;
+}
+
+.i5 {
+    border-radius: 0 1vh 1vh 0;
+}
+
+.info {
+    margin-top: 3.8vh;
+    width: 80%;
+    min-height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(.7vh);
+    padding: 2vh;
+    border-radius: 2vh;
+}
+
+.serv {
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    color: #bebebe;
+}
+
+.nav p {
+    font-size: 2vh;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+}
+
+.social {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    background-color: #fff;
+    padding: 1vh;
+    border-radius: 50%;
+    width: 2vh;
+    height: 2vh;
+}
+
+.pedido {
+    position: relative;
+    background-color: #fff;
+    border-radius: .7vh;
+    padding: 1vh;
+    height: 2vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pedido p {
+    font-size: 1.5vh;
+    color: black;
+    font-weight: bolder;
+}
+
+.btn {
+    transition: background-color .2s ease;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.904);
+}
+
+.btn:active {
+    background-color: rgba(255, 255, 255, 0.904);
+}
+
+.social img {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+}
+
+.logo {
+    width: 6vh;
+    border-radius: 1vh;
+    border: .3vh solid #fff;
+}
+
+.intro {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.intro h3 {
+    color: #fff;
+    font-size: 10vh;
+}
+
+.intro p {
+    font-size: 2.2vh;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 90%;
+    color: #bebebe;
+}
+
+.phr {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.phr p {
+    width: 30%;
+    font-size: 2vh;
+}
+
+.phr a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.phr a:hover {
+    text-decoration: underline;
+}
+
+/* .next {
+    width: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1vh;
+}
+
+.next img {
+    transform: rotate(-90deg);
+    width: 100%;
+    height: 100%;
+}
+
+.next-btn {
+    background-color: #fff;
+    width: 4vh;
+    height: 4vh;
+    border-radius: 50%;
+} */

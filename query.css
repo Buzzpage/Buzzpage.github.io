@@ -1,0 +1,78 @@
+@media only screen and (max-width:480px) {
+    body {
+        background-image: url('./assets/asset1.webp');
+    }
+
+    .info {
+        margin-top: 2.6vh;
+        min-height: 90%;
+        min-width: 80%;
+    }
+
+    .txt {
+        display: none;
+    }
+
+    .intro {
+        width: 98%;
+    }
+
+    .intro h3 {
+        font-size: 6vh;
+    }
+
+    .p {
+        width: 100%;
+    }
+
+    .select {
+        width: 100%;
+    }
+
+    .li {
+        padding: 1vh;
+        min-width: 3vh;
+        height: 3vh;
+        border-radius: 50%;
+        transition: none;
+        flex-grow: 0;
+    }
+
+    .li:hover {
+        flex-grow: 0;
+    }
+
+    .li:hover ~ .li h4 {
+        opacity: 1;
+    }
+
+    .li:not(:hover) {
+        flex-grow: 0;
+    }
+
+    .li:active {
+        background-color: rgba(255, 255, 255, 0.904);
+    }
+
+    .li h4 {
+        display: none;
+    }
+    
+    .li img {
+        display: block;
+        width: 2.5vh;
+    }
+
+    #text {
+        font-size: 1.5vh;
+    }
+
+    .phr {
+        width: 100%;
+    }
+
+    .phr p {
+        width: 40%;
+        font-size: 1.5vh;
+    }
+}
