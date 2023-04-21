@@ -314,13 +314,15 @@ img, h1, p {
     background-color: #F8FF1D;
     font-size: 2vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     padding: 1.9vh 2vh;
     border: .5vh solid black;
     border-radius: 1.2vh;
     box-shadow: .5vh .5vh 0 .1vh #000;
     text-decoration: none;
     cursor: pointer;
-    align-items: center;
 }
 
 .contact a:active, .contact-mobile a:active, .serv:active {
