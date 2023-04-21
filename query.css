@@ -124,8 +124,35 @@
         border-left: .1vh solid black;
         flex-direction: column;
         justify-content: center;
-        gap: 2vh;
-        width: 6vh;
+        width: 6.2vh;
+        background-color: #50FFAF;
+    }
+
+    .nav-mobile {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    .serv {
+        background-color: white;
+        border-radius: 0%;
+        border: none;
+        box-shadow: none;
+        padding: 0%;
+        margin: 0%;
+        width: 100%;
+    }
+
+    #website {
+        border-radius: 50% 50% 0 0;
+    }
+
+    #qr {
+        border-radius: 0 0 50% 50%;
     }
     
     .nav p {
@@ -134,7 +161,7 @@
     
     .msg2 {
         z-index: -1;
-        bottom: 30%;
+        bottom: 29%;
         left: 7%;
         width: 100%;
     }
@@ -161,16 +188,23 @@
     }
     
     .tab {
+        border-radius: 0%;
+        border-left: none;
+        border-right: none;
         width: 100%;
         position: static;
-        box-shadow: none;
     }
 
     .tab img {
         width: 100%;
     }
 
+    .garpa {
+        width: 100%;
+    }
+
     .top {
+        border-radius: 0%;
         background-color: rgb(230, 230, 230);
     }
 
@@ -192,7 +226,7 @@
     }
 
     .footer {
-        background-color: #fffc46;
+        background-color: #9C7BFF;
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -215,7 +249,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 0%;
+        padding-right: 2.3vh;
         margin: 0%;
     }
 
