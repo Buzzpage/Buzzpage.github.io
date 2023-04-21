@@ -238,7 +238,7 @@
     }
 
     .footer {
-        background-color: #9C7BFF;
+        background-color: transparent;
         justify-content: center;
         align-items: center;
         flex-direction: column;
