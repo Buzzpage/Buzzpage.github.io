@@ -1,4 +1,4 @@
-@media only screen and (max-width:480px) {
+/* @media only screen and (max-width:480px) {
     body {
         background-image: url('./assets/asset1.webp');
     }
@@ -85,5 +85,145 @@
     .phr p {
         width: 40%;
         font-size: 1.5vh;
+    }
+} */
+
+
+@media only screen and (max-width:480px) {
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .window {
+        display: grid;
+        grid-template-columns: 1fr 6vh;
+        height: 100vh;
+    }
+
+    
+    .header, .msg2, .tabs, .footer {
+        height: fit-content;
+    }
+
+    .header {
+        background-color: #C4A1FF;
+    }
+
+    .header p {
+        font-weight: bold;
+    }
+
+    .nav {
+        top: 0;
+        bottom: 0;
+        right: 0;
+        position: fixed;
+        grid-column: 2;
+        border-top: none;
+        border-bottom: none;
+        border-left: .1vh solid black;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2vh;
+        width: 6vh;
+    }
+    
+    .nav p {
+        display: none;
+    }
+    
+    .msg2 {
+        z-index: -1;
+        bottom: 30%;
+        left: 7%;
+        width: 100%;
+    }
+
+    .msg-container p {
+        font-size: 3vh;
+        width: 58%;
+    }
+
+    .spark2 {
+        top: .5vh;
+    }
+
+    .spark3 {
+        top: 5vh;
+    }
+
+    .tabs {
+        top: 18.8vh;
+        display: flex;
+        flex-direction: column-reverse;
+        grid-column: 1;
+        width: 100%;
+    }
+    
+    .tab {
+        width: 100%;
+        position: static;
+        box-shadow: none;
+    }
+
+    .tab img {
+        width: 100%;
+    }
+
+    .top {
+        background-color: rgb(230, 230, 230);
+    }
+
+    .url img {
+        width: 2vh;
+    }
+    
+    .mobile-logo {
+        display: block;
+        padding: 2vh
+    }
+
+    .inv {
+        height: 25vh;
+    }
+    
+    .indicator {
+        display: none;
+    }
+
+    .footer {
+        background-color: #fffc46;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        grid-column: 1;
+        position: static;
+        width: 100%;
+    }
+
+    .footer p {
+        font-weight: bold;
+        width: 85%;
+        text-align: center;
+    }
+    
+    .contact {
+        display: none;
+    }
+    
+    .contact-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .order {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 8vh;
     }
 }
