@@ -261,4 +261,8 @@
         text-align: center;
         width: 8vh;
     }
+
+    .about {
+        display: none;
+    }
 }
