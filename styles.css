@@ -359,6 +359,7 @@ img, h1, p {
 }
 
 .nav {
+    height: fit-content;
     font-size: 2.2vh;
     display: flex;
     justify-content: flex-start;
@@ -376,17 +377,22 @@ img, h1, p {
 }
 
 .serv {
-    padding: 0 2vh 0 2vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
     margin: 1vh;
     cursor: pointer;
 }
 
 .serv p {
     font-weight: bold;
+    margin: 0;
 }
 
 .msg2 {
     top: 40%;
+    left: 0;
     position: fixed;
     width: 100%;
     display: flex;
@@ -530,7 +536,7 @@ img, h1, p {
 }
 
 .garpa {
-    top: 28vh;
+    top: 30vh;
     left: 66vh;
 }
 
@@ -559,27 +565,27 @@ img, h1, p {
 }
 
 .website {
-    top: 30vh;
+    top: 32vh;
     left: 68vh;
 }
 
 .domain {
-    top: 32vh;
+    top: 34vh;
     left: 70vh;
 }
 
 .seo {
-    top: 40vh;
+    top: 42vh;
     left: 72vh;
 }
 
 .email {
-    top: 42vh;
+    top: 44vh;
     left: 74vh;
 }
 
 .qr {
-    top: 44vh;
+    top: 46vh;
     left: 76vh;
 }
 
@@ -614,7 +620,7 @@ span {
     align-items: center;
     flex-direction: column;
     margin-top: 1vh;
-    width: 18%;
+    width: 35vh;
     right: 2%;
     top: 22%;
     background-color: #50FFAF;
@@ -655,7 +661,6 @@ span {
 }
 
 .footer {
-    grid-row: 3;
     font-size: 2.2vh;
     display: flex;
     justify-content: space-evenly;
@@ -666,6 +671,7 @@ span {
     padding-left: 1vh;
     padding-right: 1vh;
     top: 90vh;
+    left: 0;
 }
 
 .footer p {
