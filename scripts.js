@@ -53,12 +53,16 @@
 
 
 // minimize tabs
-    
+
+const top1 = document.querySelectorAll('.top');
 const bar = document.querySelectorAll('.btn-bar');
 const p = document.querySelectorAll('.content');
 
 for (let i = 0; i < bar.length; i++) {
-    bar[i].addEventListener('click', () => p[i].style.display = 'none');
+    bar[i].addEventListener('click', () => {
+        p[i].style.display = 'none';
+        top1[i].style.marginBottom = '1%';
+    });
 }
 
 
