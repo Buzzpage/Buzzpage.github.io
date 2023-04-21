@@ -238,7 +238,8 @@
     }
 
     .footer {
-        background-color: transparent;
+        z-index: -20;
+        background-color: #9C7BFF;
         justify-content: center;
         align-items: center;
         flex-direction: column;
