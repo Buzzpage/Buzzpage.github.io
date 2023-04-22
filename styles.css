@@ -1,7 +1,12 @@
-/* @font-face {
-    font-family: "Roboto";
-    src: url('./fonts/Roboto-Regular.ttf');
-} */
+@font-face {
+    font-family: "Helmet";
+    src: url('./fonts/Helmet-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Whyte";
+    src: url('./fonts/Whyte-Regular.ttf');
+}
 
 /*
 
