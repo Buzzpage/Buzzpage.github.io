@@ -484,6 +484,7 @@ img, h1, p {
 
 .url img {
     width: 2.5vh;
+    background-color: #F8FF1D;
     -moz-user-select: none;
     -ms-user-select: none;
     -webkit-user-select: none;
