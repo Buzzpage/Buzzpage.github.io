@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
     font-family: "Roboto";
     src: url('./fonts/Roboto-Regular.ttf');
-}
+} */
 
 /*
 
@@ -266,7 +266,7 @@ body {
     padding: 0;
     user-select: none;
     scroll-behavior: smooth;
-    font-family: Roboto;
+    font-family: Helmet;
     background-color: #9C7BFF;
     color: black;
 }
@@ -298,8 +298,11 @@ img, h1, p {
 }
 
 .msg1 {
+    color: #000;
+    font-family: Whyte;
     font-weight: bolder;
-    font-size: 2.5vh;
+    font-size: 15vh;
+    margin: 0;
 }
 
 .contact, .contact-mobile {
@@ -352,6 +355,7 @@ img, h1, p {
 }
 
 .logo {
+    background-color: #F8FF1D;
     width: 8vh;
     margin: 5vh;
     border: .5vh solid black;

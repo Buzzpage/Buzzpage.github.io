@@ -113,6 +113,7 @@
     .header {
         grid-column: 1;
         background-color: #9C7BFF;
+        justify-content: space-around;
     }
 
     .header p {
@@ -168,6 +169,14 @@
     
     .nav p {
         display: none;
+    }
+
+    .logo {
+        margin: 3vh 0 3vh 0;
+    }
+
+    .msg1 {
+        font-size: 5vh;
     }
     
     .msg2 {
