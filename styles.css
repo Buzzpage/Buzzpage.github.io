@@ -696,3 +696,7 @@ span {
     font-weight: lighter;
     color: #fff;
 }
+
+.indicator-mobile {
+    display: none;
+}

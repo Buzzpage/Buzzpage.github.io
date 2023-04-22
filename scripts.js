@@ -159,10 +159,12 @@ if (window.innerWidth > 480) {
 
 // mobile app mods
 
-if (window.innerWidth <= 480) {   
+if (window.innerWidth <= 480) {
     let btns = [website, domain, seo, email, qr];
     const p = document.querySelectorAll('.content');
     let invert = 4;
+
+    const indicator = document.querySelector('.indicator-mobile');
 
     for (let i = 0; i < btns.length; i++) {
         btns[invert].addEventListener('touchstart', () => p[i].style.display = 'block');
@@ -172,5 +174,7 @@ if (window.innerWidth <= 480) {
     for (let i = 0; i < p.length; i++) {
         p[i].style.display = 'none';
     }
+
+    document.addEventListener('touchstart', () => indicator.style.display = 'none');
 }
 
