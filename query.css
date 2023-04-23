@@ -138,15 +138,15 @@
 
     .nav-mobile {
         justify-content: center;
-        align-items: center;
+        align-items: space-evenly;
         flex-direction: column;
-        background-color: white;
         width: 100%;
-        border-radius: 50%;
+        height: 40%;
+        gap: 2vh;
     }
 
     .serv {
-        background-color: white;
+        background-color: transparent;
         border-radius: 0%;
         border: none;
         box-shadow: none;
@@ -221,6 +221,10 @@
 
     .garpa {
         width: 100%;
+    }
+
+    .garpa .top {
+        border-radius: 0%;
     }
 
     .top {

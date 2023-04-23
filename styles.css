@@ -643,7 +643,7 @@ span {
     width: 80%;
     border: .4vh solid black;
     border-radius: 2vh;
-    box-shadow: .4vh .4vh 0 .1vh black;
+    box-shadow: .25vh .25vh 0 .1vh black;
     background: radial-gradient(circle at center bottom, #B2851E, transparent);
     background-color: #F8FF1D;
     margin-top: 5vh;
